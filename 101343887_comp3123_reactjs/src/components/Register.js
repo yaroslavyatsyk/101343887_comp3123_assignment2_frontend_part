@@ -31,7 +31,7 @@ function RegisterForm() {
         const signupEndpoint = `${Endpoints.base}${Endpoints.user.base}${Endpoints.user.signUp}`
         
         // Allow logging in by username/email, and password
-        const newUserObj = { username: user, email: user, password: password }
+        const newUserObj = { username: user, email: emailR, password: password }
     
         try {
             await Axios.post(

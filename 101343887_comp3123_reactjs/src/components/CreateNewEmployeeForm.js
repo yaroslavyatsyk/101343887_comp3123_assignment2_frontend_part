@@ -31,7 +31,7 @@ export default
     }
 
     const _submitDataToServer = async () => {
-        const addEmpEndPoint = `${Endpoints.base}${Endpoints.employees.base}` 
+        const addEmployeeEndPoint = `${Endpoints.base}${Endpoints.employees.base}` 
         const newEmp = {
             first_name: first_name.current.value,
             last_name: last_name.current.value,
@@ -39,7 +39,7 @@ export default
             gender: gender.current.value,
             salary: Number(salary.current.value)
         }
-        Axios.post(addEmpEndPoint, newEmp)
+        Axios.post(addEmployeeEndPoint, newEmp)
     }
 
     const to_navigate = useNavigate()

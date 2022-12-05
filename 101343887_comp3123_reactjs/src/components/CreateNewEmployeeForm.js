@@ -31,7 +31,7 @@ export default
     }
 
     const _submitDataToServer = async () => {
-        const addEmpEndpoint = `${Endpoints.base}${Endpoints.employees.base}` 
+        const addEmpEndPoint = `${Endpoints.base}${Endpoints.employees.base}` 
         const newEmp = {
             first_name: first_name.current.value,
             last_name: last_name.current.value,
@@ -39,14 +39,14 @@ export default
             gender: gender.current.value,
             salary: Number(salary.current.value)
         }
-        Axios.post(addEmpEndpoint, newEmp)
+        Axios.post(addEmpEndPoint, newEmp)
     }
 
-    const navigate = useNavigate()
+    const to_navigate = useNavigate()
 
     const _navigateToEmployeeList = () => {
-        const empListEndpoint = `${Endpoints.employees.base}${Endpoints.employees.readAll}`
-        navigate( empListEndpoint)
+        const empListEnd = `${Endpoints.employees.base}${Endpoints.employees.readAll}`
+        to_navigate( empListEnd)
     }
 
     const _capitalize = (aString) => aString[0].toLocaleUpperCase() + aString.substring(1)

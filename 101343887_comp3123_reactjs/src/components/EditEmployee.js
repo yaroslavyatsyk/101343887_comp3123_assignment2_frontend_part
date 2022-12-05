@@ -36,7 +36,7 @@ function EditEmployeeForm() {
 	}
 	
 	const _submitDataToServer = async () => {
-		const updateEmpEndpoint = `${Endpoints.base}${Endpoints.employees.base}/${employee.id}`
+		const updateEmployeeEndPoint = `${Endpoints.base}${Endpoints.employees.base}/${employee.id}`
 		const empToUpdate = {
 			first_name: employee.firstName,
 			last_name: employee.lastName,
@@ -44,7 +44,7 @@ function EditEmployeeForm() {
 			gender: employee.gender,
 			salary: employee.salary
 		}
-		await Axios.put(updateEmpEndpoint, empToUpdate)
+		await Axios.put(updateEmployeeEndPoint, empToUpdate)
 	}
 	
 	const _onFieldChanged = (event) => {

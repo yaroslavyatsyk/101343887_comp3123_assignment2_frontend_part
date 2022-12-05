@@ -68,3 +68,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Postman Screens
+Registration
+![image](https://user-images.githubusercontent.com/31794068/205549666-ed01738c-072f-4630-b45a-47b573951bd7.png)
+Login
+![image](https://user-images.githubusercontent.com/31794068/205549750-eb7b11cd-3596-44a8-bea3-ae216368b1f2.png)
+
+Employee List
+![image](https://user-images.githubusercontent.com/31794068/205549822-912883ad-df00-4510-ba80-408e75bc2196.png)
+Adding Employee
+![image](https://user-images.githubusercontent.com/31794068/205550063-9b5e6276-2e94-4f44-972b-4b69af162d2a.png)
+View Employee By ID
+![image](https://user-images.githubusercontent.com/31794068/205550127-6321cf53-0353-4484-a0be-a94871bf959c.png)
+MongoDB Window
+Users
+![image](https://user-images.githubusercontent.com/31794068/205550230-8e4855f6-69da-489c-afe7-c2e4a5705d2d.png)
+Employees
+![image](https://user-images.githubusercontent.com/31794068/205550266-043c11cb-b0fb-40d2-8248-e5d90ce60710.png)
+FrontEnd 
+Registration
+![image](https://user-images.githubusercontent.com/31794068/205550401-ea12f938-dc1d-4a9b-91fb-368966a8614b.png)
+Sign-In
+![image](https://user-images.githubusercontent.com/31794068/205550520-46551247-8cad-4ace-9690-874d018ff1a6.png)
+Main Page
+![image](https://user-images.githubusercontent.com/31794068/205550976-89289621-fa05-4240-b4b9-acc294e7a297.png)
+Update
+![image](https://user-images.githubusercontent.com/31794068/205551022-3b0eb2e6-88b5-4a92-8b32-4f03fc58d0de.png)
+View
+![image](https://user-images.githubusercontent.com/31794068/205551061-5c4e206b-5387-4fca-b426-8ecb4c60e008.png)
+Delete
+![image](https://user-images.githubusercontent.com/31794068/205551092-e6bea29e-de23-4f64-8060-a62518008e1a.png)
+
+
+
+
+
+
+
